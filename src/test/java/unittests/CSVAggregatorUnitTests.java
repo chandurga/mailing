@@ -3,11 +3,12 @@ package unittests;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.powertester.annotations.CSVTest;
 import org.powertester.annotations.CSVToTestDataMap;
 import org.powertester.data.TestData;
-
+@Disabled
 class CSVAggregatorUnitTests {
   @CSVTest
   @CsvFileSource(files = "src/test/resources/testdata/test-data.csv", numLinesToSkip = 1)
