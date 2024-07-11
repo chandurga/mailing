@@ -1,4 +1,0 @@
-org.powertester.extensions.ReportingExtension
-org.powertester.extensions.TimingExtension
-org.powertester.extensions.TestRunExtension
-org.powertester.extensions.LoggingExtension
