@@ -57,6 +57,7 @@ jobs:
           mkdir -p test-reports
           xsltproc junit-frames.xsl target/surefire-reports/TEST-*.xml > test-reports/index.html
 
+
       - name: Send email with report
         uses: dawidd6/action-send-mail@v3
         with:
